@@ -54,7 +54,7 @@ def load_data(file_path):
 
 
 def main():
-    file_path = os.path.join(os.path.dirname(__file__), "lms-stage-access.log")
+    file_path = os.path.join(os.path.dirname(__file__), "lms-stage-access.logg")
     ip_list = load_data(file_path)
     
     start_time = time.time()
